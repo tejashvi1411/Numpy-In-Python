@@ -7,20 +7,22 @@ The order of the powers is determined by the increasing boolean argument. Specif
 HINT: Such a matrix with a geometric progression in each row is named for AlexandreTheophile Vandermonde.
 
 with decreasing 
---------------------------------------------------
+
 [[ 1  1  1  1]
  [ 8  4  2  1]
  [27  9  3  1]]
+
 with increasing 
---------------------------------------------------
+
 [[ 1  1  1  1]
  [ 1  2  4  8]
  [ 1  3  9 27]]
+ 
 Problem Statement 2: Given a sequence of n values x1, x2, ..., xn and a window size k>0, the k-th moving average of the given sequence is defined as follows: The moving average sequence has n-k+1 elements as shown below. The moving averages with k=4 of a ten-value sequence (n=10) is shown below
 
 i 1 2 3 4 5 6 7 8 9 10
 
-===== == == == == == == == == == ==
+
 
 Input 10 20 30 40 50 60 70 80 90 100
 
